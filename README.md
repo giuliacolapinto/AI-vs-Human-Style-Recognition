@@ -43,6 +43,10 @@ To ensure the models capture style rather than just overfitting the training dat
 
 ## Running the Code
 1. Open the `DataMining.Rproj` file in RStudio.
-2. Ensure you have the required CSV datasets (`train.csv`, `Training_Essay_Data.csv`, and `arXiv_scientific_dataset.csv`) securely stored in your local repository or data folder. 
-   > ⚠️ **Note**: `train.csv` and `arXiv_scientific_dataset.csv` are both larger than 100MB. Due to GitHub's file size limits, they are not included in this repository and must be downloaded/stored locally.
+2. Download the required CSV datasets and store them in your local repository or data folder:
+   - [LLM Detect AI Generated Text (`Training_Essay_Data.csv`)](https://www.kaggle.com/datasets/sunilthite/llm-detect-ai-generated-text-dataset)
+   - [Nvidia Nemotron Model Reasoning Challenge (`train.csv`)](https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge)
+   - [arXiv Scientific Research Papers (`arXiv_scientific_dataset.csv`)](https://www.kaggle.com/datasets/sumitm004/arxiv-scientific-research-papers-dataset)
+   
+   > ⚠️ **Note**: `train.csv` and `arXiv_scientific_dataset.csv` are both larger than 100MB. Due to GitHub's file size limits, they are not included in this repository and must be downloaded locally from the links above.
 3. Run the `3AI-vs-Human.R` script step-by-step to view the descriptive statistics, principal component scree plots, model confusion matrices, and the final temporal AI-trend plots.
